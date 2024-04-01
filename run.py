@@ -7,5 +7,15 @@ class BattleshipGame:
         self.board = [['O' for _ in range(size)] for _ in range(size)]
         self.ships = []
         self.generate_ships()
-    print("BattleshipGame")
+
+def generate_ships(self):
+        for _ in range(self.num_ships):
+            ship_row = random.randint(0, self.size - 1)
+            ship_col = random.randint(0, self.size - 1)
+            while (ship_row, ship_col) in self.ships:
+                ship_row = random.randint(0, self.size - 1)
+                ship_col = random.randint(0, self.size - 1)
+            self.ships.append((ship_row, ship_col))
+            print("Hello Ocean")
     
+   
