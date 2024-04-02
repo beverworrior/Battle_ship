@@ -5,24 +5,26 @@ class BattleshipGame:
         self.size = size
         self.num_ships = num_ships
         self.board = [['O' for _ in range(size)] for _ in range(size)]
+        print(self.board)
         self.ships = []
         self.generate_ships()
 
-    # This is for randomise the location of the ships.
+    # Random generate where the ships gets placed
     def generate_ships(self):
         for _ in range(self.num_ships):
             ship_row = random.randint(0, self.size - 1)
             ship_col = random.randint(0, self.size - 1)
+            print(ship_row,ship_col)
             while (ship_row, ship_col) in self.ships:
                 ship_row = random.randint(0, self.size - 1)
                 ship_col = random.randint(0, self.size - 1)
             self.ships.append((ship_row, ship_col))
 
-    # Creat the grid for the board.
+    # Print out all rows
     def print_board(self):
         for row in self.board:
             print(" ".join(row))
-    # This is to cheak if i have hit or miss my target.
+    
     def check_guess(self, guess_row, guess_col):
         if (guess_row, guess_col) in self.ships:
             print("Congratulations! You sunk my battleship!")
@@ -33,7 +35,7 @@ class BattleshipGame:
             self.board[guess_row][guess_col] = 'M'
     
     def play(self):
-        print("Let's play Battleship! You have 10 Guesses to sunk my ship!")
+        print("Let's play Battleship!")
         self.print_board()
         num_guesses = 0
         while self.ships:
