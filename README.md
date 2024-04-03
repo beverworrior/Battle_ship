@@ -1,12 +1,12 @@
 # Battleship Game
 
 This is a simple implementation of the classic Battleship game in Python.
-This is the https://github.com/beverworrior/Battle_ship.git
-* [https://battleship92-b8f2d624a056.herokuapp.com]
+This is the r https://github.com/beverworrior/Battle_ship.git
+* This is the link to my little game of wits [https://battleship92-b8f2d624a056.herokuapp.com]
 
 ## Users
 This game is for the player to sink three ships before the guessing reaching maximum of 10 times.
- 
+
 
 ## Getting Started 
 To play the game, you can follow these steps:
@@ -47,4 +47,10 @@ The code consists of the following components:
 * Python 3. 
 
 ## Testing
-[Testing.png]
+![PEP8 Valdation](Testing.png)
+
+# How to deploy this to heroku
+1. Step one create an account or login if you already have one.
+2. Conected with you github repo with heroku.
+3. Step two create a app and go to settings where you can name your app and choses bulidpacks and also implement Config Vars.
+4. Push the deployed button and wait for all setting go trough from git then enjoy your deployed app.
