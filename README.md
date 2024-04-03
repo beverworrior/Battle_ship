@@ -2,7 +2,7 @@
 
 This is a simple implementation of the classic Battleship game in Python.
 This is the https://github.com/beverworrior/Battle_ship.git
-* {https://battleship92-b8f2d624a056.herokuapp.com/}
+* [https://battleship92-b8f2d624a056.herokuapp.com]
 
 ## Users
 This game is for the player to sink three ships before the guessing reaching maximum of 10 times.
