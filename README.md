@@ -52,5 +52,5 @@ The code consists of the following components:
 # How to deploy this to heroku
 1. Step one create an account or login if you already have one.
 2. Conected with you github repo with heroku.
-3. Step two create a app and go to settings where you can name your app and choses bulidpacks and also implement Config Vars.
+3. Step two create a app and go to settings where you can name your app and choses bulidpacks Python and NodeJs in that order.
 4. Push the deployed button and wait for all setting go trough from git then enjoy your deployed app.
