@@ -1,7 +1,7 @@
 # Battleship Game
 
 This is a simple implementation of the classic Battleship game in Python.
-This is the r https://github.com/beverworrior/Battle_ship.git
+* This is the repository [https://github.com/beverworrior/Battle_ship.git]
 * This is the link to my little game of wits [https://battleship92-b8f2d624a056.herokuapp.com]
 
 ## Users
