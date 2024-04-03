@@ -35,7 +35,7 @@ class BattleshipGame:
             self.board[guess_row][guess_col] = 'M'
 
     def play(self):
-        print("Let's play Battleship! You have 10 Guesses to sink my ship!")
+        print("Let's play Battleship! You have 10 Guesses to sink my 3 ship!")
         self.print_board()
         num_guesses = 0
         while self.ships:
